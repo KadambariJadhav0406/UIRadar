@@ -1,0 +1,38 @@
+.logo-style {
+    font-family: 'Arial'; 
+    font-size: 2rem; /* Adjust size as needed */
+    font-weight: 600; /* Semi-bold weight */
+    letter-spacing: 0.2em; /* Add letter spacing */
+    color: transparent;
+    background: linear-gradient(to right,black, black); /* Light to dark gray gradient */
+    -webkit-background-clip: text; /* Clip background to text */
+    background-clip: text;
+  }
+
+  /* Orange outline button */
+.btn-outline-orange {
+  color: #ff7e5f;
+  border: 2px solid #ff7e5f;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.btn-outline-orange:hover {
+  background-color: #ff7e5f;
+  color: white;
+  border-color: #ff7e5f;
+}
+
+/* Orange pill buttons */
+.btn-orange-pill {
+  border-radius: 50px;
+  padding: 0.5rem 1.2rem;
+}
+
+/* Active link highlight */
+.navbar .nav-item .active button {
+  background-color: #ff7e5f !important;
+  color: white !important;
+  border-color: #ff7e5f !important;
+}

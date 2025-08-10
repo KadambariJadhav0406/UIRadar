@@ -1,0 +1,81 @@
+.view-appointments-container {
+  margin: 2rem auto;
+  max-width: 900px;
+  background-color: #ffffff; /* dark background */
+  color: #000000;
+  padding: 2rem;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.view-appointments-container h3 {
+  color: #feb47b;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.appointment-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.appointment-table thead tr {
+  background: linear-gradient(90deg, #feb47b, #ff7e5f);
+  color: #000000;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.appointment-table th,
+.appointment-table td {
+  padding: 12px 15px;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+.appointment-table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.appointment-table tbody tr:hover {
+  background-color: #f5ede6;
+  color: #000;
+  cursor: pointer;
+}
+
+.download-btn,
+.upload-btn {
+  background-color: transparent;
+  border: 2px solid #feb47b;
+  color: #feb47b;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #feb47b;
+  color: #000;
+}
+
+.upload-btn {
+  margin-left: 10px;
+}
+
+.upload-btn:disabled,
+.upload-btn[disabled] {
+  border-color: #555;
+  color: #555;
+  cursor: not-allowed;
+  background-color: #2a2a2a;
+}
+
+.upload-btn:not(:disabled):hover {
+  background-color: #feb47b;
+  color: #000;
+}
